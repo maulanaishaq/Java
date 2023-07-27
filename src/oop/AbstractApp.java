@@ -7,6 +7,7 @@ public class AbstractApp {
 
         var city = new City();
         city.name = "Jakarta";
+        System.out.println(city.radius);
 
         System.out.println(city.name);
 
